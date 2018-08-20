@@ -3,7 +3,37 @@
   overflow: hidden;
   background-color: #333;
   font-family: Arial;
+  border-radius: 15px;
+  border: 5px;
+  border-color: rgb(221,0,66);
 
+}
+
+.how{
+  text-align: center;
+  font-style: oblique;
+  font-size: 1.5em;
+}
+
+footer{
+  display: block;
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  width: 100%;
+  background-color: #333;
+  color: white;
+  text-align: center;
+}
+
+#posted{
+  float: left;
+  padding-left: 30px;
+}
+
+#contact{
+  float: right;
+  padding-right: 30px;
 }
 
 .line{
@@ -13,6 +43,11 @@
 h2{
   padding-top: 30px;
   text-align: center;
+}
+
+ol, li{
+  text-align: center;
+  padding-top: 30px;
 }
 
 .navbar a{
