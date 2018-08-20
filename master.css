@@ -31,10 +31,10 @@ footer{
   padding-left: 30px;
 }
 
-#contact{
-  float: right;
-  padding-right: 30px;
+#posted a:link{
+  color: red;
 }
+
 
 .line{
   width: 100%;
