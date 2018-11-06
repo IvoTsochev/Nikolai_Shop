@@ -1,4 +1,4 @@
-/* Navbar */
+
 .navbar{
   overflow: hidden;
   background-color: #333;
@@ -7,6 +7,18 @@
   border: 5px;
   border-color: rgb(221,0,66);
 
+}
+
+.main-img{
+  float: left;
+}
+
+.img-description{
+  float: right;
+}
+
+.sub-img{
+  /* padding-top: 400px; */
 }
 
 .how{
@@ -24,8 +36,7 @@ footer{
   height: 6%;
   /* background-color: #333; */
   color: black;
-  text-align: center;
-
+  text-align: left;
 }
 
 #posted{
@@ -125,19 +136,24 @@ ol, li{
   clear: both;
   display: table;
 
-  .row{
-    display: flex;
-  }
+.row{
+  display: flex;
+}
 
 
-  .column {
-    flex: 23%;
-    padding: 5px;
-  }
+.column {
+  flex: 23%;
+  padding: 5px;
+}
 
   /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 500px) {
-    .column {
-      width: 100%;
-    }
+@media screen and (max-width: 500px) {
+  .column {
+    width: 100%;
   }
+}
+
+footer {
+  clear: both;
+  text-align: center;
+}
